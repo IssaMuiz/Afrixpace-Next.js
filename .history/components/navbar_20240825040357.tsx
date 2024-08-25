@@ -70,7 +70,7 @@ const Navbar = (props: sideNavtype) => {
           </Link>
           <Link href="/createpost">
             <div className="bg-gray-700 rounded-lg w-auto absolute transform translate-x-2 translate-y-11 duration-300 opacity-0 transition-opacity group-hover:visible invisible group-hover:opacity-100 text-center">
-              <p className="text-white px-4">Create Post</p>
+              <p className="text-white px-4">Create Space</p>
             </div>
           </Link>
         </div>

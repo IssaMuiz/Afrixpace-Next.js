@@ -59,7 +59,7 @@ const Navbar = (props: sideNavtype) => {
       </div>
       <div className="right-navbar flex gap-2 whitespace-nowrap mr-9">
         <div className="h-8 w-8 flex items-center justify-center rounded-full bg-[#1c1e21]  cursor-pointer hover:bg-[#182947] relative group">
-          <Link href="/createpost">
+          <Link href="/create-post">
             <Image
               width={35}
               height={35}
@@ -70,7 +70,7 @@ const Navbar = (props: sideNavtype) => {
           </Link>
           <Link href="/createpost">
             <div className="bg-gray-700 rounded-lg w-auto absolute transform translate-x-2 translate-y-11 duration-300 opacity-0 transition-opacity group-hover:visible invisible group-hover:opacity-100 text-center">
-              <p className="text-white px-4">Create Post</p>
+              <p className="text-white px-4">Create Space</p>
             </div>
           </Link>
         </div>

@@ -51,10 +51,10 @@ const CommentList = (props: CommentType) => {
                     className="flex gap-5 items-center pb-2 mb-4  ml-10"
                   >
                     <Image
-                      width={30}
-                      height={30}
+                      width={10}
+                      height={10}
                       className={` rounded-full `}
-                      src="/assets/icons/avatar.png"
+                      src="/assets/avatar.png"
                       alt=""
                     />
                     <p className="flex flex-col break-words tablet:max-w-[300px] desktop:max-w-[500px] mobile:max-w-[370px] bg-[#616060] p-3 rounded-xl">

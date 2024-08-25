@@ -10,7 +10,7 @@ interface Feeds {
 
 const Feed = () => {
   return (
-    <section className="mt-32 max-w-[900px]  md:mr-[320px]  xl:ml-[300px]  md:ml-[30px] flex flex-1 flex-col mx-5">
+    <div className="mt-32 max-w-[900px]  md:mr-[320px]  xl:ml-[300px]  md:ml-[30px] flex flex-1 flex-col mx-5">
       {Feeds.map((feed) => (
         <div className="mb-1" key={feed.id}>
           <hr className="mb-5" />
@@ -55,7 +55,7 @@ const Feed = () => {
           </div>
         </div>
       ))}
-    </section>
+    </div>
   );
 };
 
